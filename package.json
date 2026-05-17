@@ -15,7 +15,7 @@
     "index": "node ./scripts/index-delta.mjs",
     "test": "node --test test/*.test.mjs",
     "test:watch": "node --test --watch test/*.test.mjs",
-    "build-fixtures": "node test/fixtures/build.mjs"
+    "build-fixtures": "node init && node test/fixtures/build.mjs"
   },
   "files": [
     ".claude-plugin",
